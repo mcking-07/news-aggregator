@@ -1,0 +1,57 @@
+news-aggregator
+├── client
+│   ├── node_modules
+│   ├── public
+│   │   ├── index.html
+│   │   ├── favicon.ico
+│   ├── src
+│   │   ├── components
+│   │   │   ├── cards.js
+│   │   │   ├── header.js
+│   │   │   └── nav.js
+│   │   ├── config
+│   │   │   └── config.js
+│   │   ├── services
+│   │   │   └── api.js
+│   │   ├── App.js
+│   │   └── index.js
+│   ├── .env
+│   ├── .gitignore
+│   ├── sampleEnv.txt
+│   ├── README.md
+│   ├── package.json
+│   └── package-lock.json
+├── server
+│   ├── node_modules
+│   ├── src
+│   │   ├── config
+│   │   │   └── config.js
+│   │   ├── models
+│   │   │   ├── business.js
+│   │   │   ├── entertainment.js
+│   │   │   ├── general.js
+│   │   │   ├── health.js
+│   │   │   ├── science.js
+│   │   │   ├── sports.js
+│   │   │   └── technology.js
+│   │   ├── routes
+│   │   │   ├── allRoutes
+│   │   │   │   ├── business.js
+│   │   │   │   ├── entertainment.js
+│   │   │   │   ├── general.js
+│   │   │   │   ├── health.js
+│   │   │   │   ├── science.js
+│   │   │   │   ├── sports.js
+│   │   │   │   └── technology.js
+│   │   │   └──index.js
+│   │   ├── utils
+│   │   │   └──cron.js
+│   │   └── server.js
+│   ├── .env
+│   ├── .gitignore
+│   ├── sampleEnv.txt
+│   ├── README.md
+│   ├── package.json
+|   └── package-lock.json
+├── LICENSE
+└── README.md
