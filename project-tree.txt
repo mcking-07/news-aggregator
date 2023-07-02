@@ -11,6 +11,8 @@ news-aggregator
 │   │   │   └── nav.js
 │   │   ├── config
 │   │   │   └── config.js
+│   │   ├── scripts
+│   │   │   └── databaseCleanup.js
 │   │   ├── services
 │   │   │   └── api.js
 │   │   ├── App.js
